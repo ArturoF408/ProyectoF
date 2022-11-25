@@ -1,0 +1,132 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-image: url(b5.jpg) ;
+    color: #fff;
+}
+body{
+    width: 80%;
+    margin: 10px auto;
+}
+.limpiar{
+    clear: both;
+}
+header, nav, aside, section, article, footer{
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: #4205ac;
+}
+nav{
+    background: #362ca7;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    width: 15%;
+    height: 220px;   
+}
+.jpg{
+    margin: 10px 10px 10px 10px;
+    padding: 5%;
+    width: 80%; 
+    height: 170px; 
+}
+ 
+/*nav{
+    float: left;
+    /* display: inline-block; 
+    margin: 10px 0;
+    padding: 105px 0;
+    width: 30%;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}*/
+section{
+    margin: 10px 0;
+    padding: 20px 0;
+    float: right;
+    width: 75%;
+    height: 200px;
+    background:rgb(198, 197, 189);
+}
+aside{
+    margin: 5px 10px;
+    padding: 0 20px;
+    float: right;
+    width: 35%;
+    height: 75px;
+    background: turquoise;
+}
+aside div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.aside2{
+    margin: 5px 10px;
+    padding: 0 20px;
+    float: right;
+    width: 35%;
+    height: 75px;
+    background: rgb(143, 149, 140);
+}
+.aside2 div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+    article{
+    float: left;
+    margin: 10px 10px;
+    width: 50%;
+    height:140px;
+    background:rgb(104, 103, 94) ;
+}
+.section2{
+    margin: 10px 0;
+    padding: 20px 0;
+    float: right;
+    width: 55%;
+    height: 200px;
+    background: rgb(98, 52, 87);
+
+}
+.aside3{
+    margin: 10px 10px;
+    padding: 5px 20px;
+    float: right;
+    width: 60%;
+    height: 160px;
+    background: rgb(118, 205, 215);
+}
+.aside3 div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-enviar{
+    background: rgb(12, 5, 6);
+    float: none;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer{
+    background: rgb(28, 25, 77);
+    width: 100%;
+
+}
+
+
+

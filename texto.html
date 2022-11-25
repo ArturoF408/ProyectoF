@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Archivo</title>
+    <link rel="stylesheet" href="texto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="texto.js" defer></script>
+  </head>
+
+  <body class="body1">
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Pagina</a>
+        <a class="navegacion__enlace" href="curriculum.html">Curriculum</a>
+        <a class="navegacion__enlace" href="clima.html">Clima</a>
+        <a class="navegacion__enlace" href="/Gato/gato.html">Gato</a>
+        <a class="navegacion__enlace" href="/Convertidor/contraseña.html">Contraseña</a>
+        <a class="navegacion__enlace navegacion__enlace--activo">Convertidor</a>
+    </nav>
+    <div class="wrapper">
+      <textarea spellcheck="false" placeholder="Enter something to save" required> </textarea>
+      <div class="file-options">
+        <div class="optionfile-name">
+          <label>Nombre del archivo</label>
+          <input type="text" spellcheck="false" placeholder="Enter file name">
+        </div>
+        <div class="optionsave-as">
+          <label>Salvar como</label>
+          <div class="select-menu">
+            <select>
+              <option value="text/plain">Documento de texto (.txt)</option>
+              <option value="text/javascript">Documento js (.js)</option>
+              <option value="text/html">Documento HTML (.html)</option>
+              <option value="image/svg+xml">Documento SVG (.svg)</option>
+              <option value="application/msword">Documento Doc (.doc)</option>
+              <option value="application/vnd.ms-powerpoint">Documento PPT (.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save-btn" type="button">Salvar como archivo de texto</button>
+    </div>
+  </body>
+</html>
